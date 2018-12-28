@@ -1,0 +1,25 @@
+{
+    "name": "storeapp_backend",
+    "version": "1.0.0",
+    "description": "API RESTFul for storeapp ",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "author": "Andres de Vivanco",
+    "license": "MIT",
+    "dependencies": {
+        "bcrypt-nodejs": "0.0.3",
+        "body-parser": "^1.18.3",
+        "connect-multiparty": "^2.2.0",
+        "express": "^4.16.4",
+        "jwt-simple": "^0.5.5",
+        "moment": "^2.23.0",
+        "mysql": "^2.16.0",
+        "mysql-model": "0.0.3"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.9"
+    }
+}
