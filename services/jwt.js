@@ -2,12 +2,12 @@
 
 var jwt = require('jwt-simple');
 var moment = require('moment');
-var secret = 'secret_key_for_mysql_nodejs_api';
+var secret = 'secret_key_for_andresdev_zoo_app';
 
 
 exports.create_token = function(user) {
     var payload = {
-        sub: user.id,
+        sub: user._id,
         name: user.name,
         surname: user.surname,
         email: user.email,

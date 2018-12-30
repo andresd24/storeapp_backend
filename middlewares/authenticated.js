@@ -2,7 +2,7 @@
 
 var jwt = require('jwt-simple');
 var moment = require('moment');
-var secret = 'secret_key_for_mysql_nodejs_api';
+var secret = 'secret_key_for_andresdev_zoo_app';
 
 exports.ensureAuth = function(req, res, next) {
     res.set('Content-Type', 'application/json');
