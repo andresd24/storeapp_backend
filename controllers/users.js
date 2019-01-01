@@ -16,7 +16,7 @@ function register_user(req, res) {
     let role = 'ROLE_USER';
     let image = "";
 
-    console.log('registering user');
+    console.log('registering user1');
 
     if (params.password && params.name && params.surname && params.email) {
         // first select from users to see if user's email already exists
